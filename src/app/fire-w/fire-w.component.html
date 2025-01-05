@@ -1,0 +1,42 @@
+@if (model){
+<div class="modal "  tabindex="-1" style="display: block;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Firework details</h5>
+                <button type="button" class="btn-close" (click)="model = undefined"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" 
+                                [value]="model.name" (change)="model.name = getValue($event)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="category" class="form-label">Category</label>
+                        <select class="form-select" id="category" [value]="model.category" (change)="model.category= getValue($event)">
+                            <option value="Firecracker">Firecracker</option>
+                            <option value="Rocket">Rocket</option>
+                            <option value="Catherine Wheel">Catherine Wheel</option>
+                            <option value="Sparkler">Sparkler</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Price</label>
+                        <input type="number" class="form-control" id="price" [value]="model.price" (change)="model.price = getNumberValue($event)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="quantity" class="form-label">Quantity</label>
+                        <input type="number" class="form-control" id="quantity" [value]="model.quantity" (change)="model.quantity = getNumberValue($event)">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" (click)="model = undefined">Close</button>
+                <button type="button" class="btn btn-primary" (click)="save()">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+}

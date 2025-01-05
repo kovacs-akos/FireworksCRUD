@@ -1,0 +1,130 @@
+{
+  "fireworks": [
+    {
+      "id": "1",
+      "name": "Sparkling Fantasy",
+      "category": "Sparkler",
+      "quantity": 50,
+      "price": 1500
+    },
+    {
+      "id": "2",
+      "name": "Flaming Night",
+      "category": "Rocket",
+      "quantity": 10,
+      "price": 5000
+    },
+    {
+      "id": "3",
+      "name": "Fire Flower",
+      "category": "Cake",
+      "quantity": 5,
+      "price": 12000
+    },
+    {
+      "id": "4",
+      "name": "Popping Star",
+      "category": "Firecracker",
+      "quantity": 100,
+      "price": 800
+    },
+    {
+      "id": "5",
+      "name": "Sky Lights",
+      "category": "Rocket",
+      "quantity": 15,
+      "price": 7000
+    },
+    {
+      "id": "6",
+      "name": "Golden Rain",
+      "category": "Cake",
+      "quantity": 3,
+      "price": 15000
+    },
+    {
+      "id": "7",
+      "name": "Lightning Strike",
+      "category": "Firecracker",
+      "quantity": 200,
+      "price": 1000
+    },
+    {
+      "id": "8",
+      "name": "Light Magic",
+      "category": "Sparkler",
+      "quantity": 30,
+      "price": 2000
+    },
+    {
+      "id": "9",
+      "name": "Sky Wonder",
+      "category": "Rocket",
+      "quantity": 12,
+      "price": 6500
+    },
+    {
+      "id": "10",
+      "name": "Fire Dance",
+      "category": "Cake",
+      "quantity": 6,
+      "price": 18000
+    },
+    {
+      "id": "11",
+      "name": "Butterfly Lights",
+      "category": "Sparkler",
+      "quantity": 25,
+      "price": 1800
+    },
+    {
+      "id": "12",
+      "name": "Sound Explosion",
+      "category": "Firecracker",
+      "quantity": 150,
+      "price": 900
+    },
+    {
+      "id": "13",
+      "name": "Burning Diamond",
+      "category": "Cake",
+      "quantity": 4,
+      "price": 20000
+    },
+    {
+      "id": "14",
+      "name": "Rainbow Rocket",
+      "category": "Rocket",
+      "quantity": 8,
+      "price": 8000
+    },
+    {
+      "id": "15",
+      "name": "Fairy Light",
+      "category": "Sparkler",
+      "quantity": 40,
+      "price": 2500
+    },
+    {
+      "id": "16",
+      "name": "Sky Thunder",
+      "category": "Firecracker",
+      "quantity": 120,
+      "price": 1100
+    },
+    {
+      "id": "17",
+      "name": "Fire Hurricane",
+      "category": "Rocket",
+      "quantity": 10,
+      "price": 7500
+    },
+    {
+      "id": "18",
+      "name": "Supernova",
+      "category": "Cake",
+      "quantity": 7,
+      "price": 22000
+    }
+  ]
+}
