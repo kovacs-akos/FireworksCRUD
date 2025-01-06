@@ -21,6 +21,6 @@ jobs:
     - name: Build the Docker image
       run: |
         docker build . --file Dockerfile --tag ghcr.io/kovacs-akos/fireworkscrud:$IMAGE_TAG --tag ghcr.io/kovacs-akos/fireworkscrud:latest
-        docker login ghcr.io -u kovacs-akos -p ${{secrets.GHCR_TOKEN}}
+        docker login ghcr.io -u kovacs-akos -p ${{secrets.GLCR_TOKEN}}
         docker push ghcr.io/kovacs-akos/fireworkscrud:$IMAGE_TAG
         docker push ghcr.io/kovacs-akos/fireworkscrud:latest
